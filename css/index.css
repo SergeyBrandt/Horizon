@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #d10008;
+    --font-1: "Rajdhani", sans-serif
+}
+
+.hd-container {
+    background-image: url(../images/main_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1430px;
+}
+
+.page-header {
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.31);
+    backdrop-filter: blur(9.5px);
+}
+
+.page-header .inner {
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+}
+
+.style-button {
+    height: 44px;
+    padding: 12px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-transform: uppercase;
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.page-header img {
+    margin: 0 50px;
+}
+
+.page-header .left-nav ul,
+.page-header .right-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-header nav li {
+    margin: 0 18px;
+}
+
+.page-header nav a {
+    color: #a2a2a2;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
